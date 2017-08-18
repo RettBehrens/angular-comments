@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AddCommentComponent } from './add-comment/add-comment.component';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  comments = [
-      'first comment!',
-      'nice work!',
-      'I would also like to congratulate you!'
-  ];
+
+	// addComment = function() {
+	// 	this.comments.push({text: this.comment, author: this.author});
+	// };
+
+	// deleteComment = function(index) {
+	// 	this.comments.splice(index, 1);
+	// };
+
+ // editComment = function(i){
+ //  	this.comments[index].text = this.comment;
+ //  	this.comments[index].author = this.author;
+ //  };
+
+  constructor() { }
 }
